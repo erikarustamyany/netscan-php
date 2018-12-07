@@ -59,8 +59,7 @@ $l = getLocationInfo($_GET['ip']);
 </h3>
 <?php
 // SET VARS
-error_reporting(3);
-ini_set('max_execution_time', 0);
+    ini_set('max_execution_time', 0);
 
 $ports = array(20, 21, 22, 23, 25, 53, 67, 68, 69, 80, 110, 123, 137, 138, 139, 143, 161, 162, 179, 389, 443, 636, 989, 990, 11211);
 $subnets = array("130.193.122.");
