@@ -46,7 +46,7 @@
 <?php
 // SET VARS
 error_reporting(0);
-ini_set('max_execution_time', 300);
+    ini_set('max_execution_time', 0);
 
 include("counter.php");
 
